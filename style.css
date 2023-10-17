@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 1px darkcyan dashed;
+}
+
+canvas {
+  display: block;
+}
+
+#app {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+
+.left, .right {
+  /*width: 600px;*/
+  /*height: 400px;*/
+}

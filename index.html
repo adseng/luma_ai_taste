@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="left">
+        <div>
+          <input type="file" accept="video/*">
+          <button id="confirm" type="button" >确认上传</button>
+          <button id="progress" type="button" >查询全部</button>
+        </div>
+        <video id="preview" controls width="600" height="auto"></video>
+        <div id="process"></div>
+
+      </div>
+      <div class="right"></div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
